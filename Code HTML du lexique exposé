@@ -1,143 +1,178 @@
 <!DOCTYPE html>
-<html>
+<html style = "background: "spinner-red"; background-color: #DCE6F4" >
 <head>
 	<meta charset="utf-8">
-	<title>Mon titre</title>
-	<link rel="stylesheet" type="text/css" href="css.css">
+	<title>Lexique et acronymes sur les réseaux</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
 </head>
-<body>
+<body width = 550px;><p class = "LARGEUR"><img src="wiki.png"></img
+<h1><center>ACRONYMES ET LEXIQUE LIES AUX RESEAUX</center></h1>
 
-<h1>ACRONYMES ET LEXIQUE LIES AUX RESEAUX</h1>
 
-<h2>I/ Réseaux locaux (Area Networks)</h2>
-<h3><u>1 - LAN</u></h3>
 
-<article>Le premier réseau est le LAN, qui signifie Local Area Network. C'est un réseau d'entreprise de 
+<center><h2> Sommaire </h2></center>
+
+        
+
+<p class = "sommairestyle"><h3><a href = #PARTIE10>I/ Réseaux locaux (Area Networks)</a></h3>
+<marquee><h5><a class="waves-effect waves-light btn" href = #PARTIE11>1 - LAN</p></a></h5>
+<h5><a class="waves-effect waves-light btn"href = #PARTIE12>2 - WLAN</p></a></h5>
+<h5><a class="waves-effect waves-light btn" href = #PARTIE13>3 - VLAN</p></a></h5>
+<h5><a class="waves-effect waves-light btn"href = #PARTIE14>4 - WAN, PAN, MAN</p></a></h5>
+<h5><a class="waves-effect waves-light btn"href = #PARTIE15>5 - ADRESSES MAC</p></a></h5>
+<h5><a class="waves-effect waves-light btn"href = #PARTIE16>6 - DNS</p></a></h5>
+<h5><a class="waves-effect waves-light btn"href = #PARTIE17>7 - ETHERNET</p></a></h5></p>
+<h3><a class="waves-effect waves-light btn"href="#PARTIE20">II/ Services liés aux connextions internet</a></h3>
+<h5><a class="waves-effect waves-light btn"href ="#PARTIE21"><p class="sommairetabulation"> 1 - FAI/ISP</p></a></h5>
+<h5><a class="waves-effect waves-light btn"href ="#PARTIE22"><p class="sommairetabulation">2 - PROXY</p></a></h5>
+<h5><a class="waves-effect waves-light btn"href ="#PARTIE23"><p class="sommairetabulation">3 - VPN</p></a></h5>
+<h5><a class="waves-effect waves-light btn"href ="#PARTIE24"><p class="sommairetabulation">4 - WEP</p></a></h5>
+<h5><a href ="#PARTIE25"><p class="sommairetabulation">5 - WIFI</p></a></h5>
+<h3><a href = #PARTIE30>III/ Protocoles</a></h3>
+<h5><a href = #PARTIE31>1 - TCP/IP</p></a></h5>
+<h5><a href = #PARTIE32>2 - TCP</p></a></h5></marquee>
+<h5><a href = #PARTIE33>3 - IP</p></a></h5>
+<h5><a href = #PARTIE34>4 - FTP</p></a></h5>
+<h5><a href = #PARTIE35>5 - HTTP</p></a></h5>
+<h5><a href = #PARTIE36>6 - NTP</p></a></h5>
+<h5><a href = #PARTIE37>7 - DHCP</p></a></h5></p>
+<p class = "sommairestyle"></p>
+
+
+    <p class="flow-text">I am Flow Text</p>
+<p class="retourligne">Le premier réseau est le <a href=http://fr.wikipedia.org/wiki/Local_Area_Network>LAN</a>, qui signifie Local Area Network. C'est un réseau d'entreprise de 
 faible superficie, c'est-à-dire un réseau où les équipements informatiques qui le compose sont 
 géographiquement regroupés dans un même site relativement petit. (immeuble, étage). C'est un 
-réseau de données à haute vitesse et avec un taux d'erreur faible. 
-On définit aussi le LAN par le domaine de diffusion, c'est-à-dire l'ensemble des stations qui 
+réseau de données à haute vitesse et avec un taux d'erreur faible. </p>
+<p class="sdl">On définit aussi le LAN par le domaine de diffusion, c'est-à-dire l'ensemble des stations qui 
 reçoivent une même trame de diffusion. Au niveau de l'adressage IP, un réseau local correspond 
 généralement à un sous-réseau IP. On interconnecte les réseaux locaux au moyen de routeurs.
-On peut distinguer deux modes de fonctionnement du LAN: 
-–
-dans un environnement "PEER TO PEER" dans lequel la communication s'établit 
+On peut distinguer deux modes de fonctionnement du LAN: </p>
+<p class="margedroite">–dans un environnement "PEER TO PEER" dans lequel la communication s'établit 
 d'ordinateur à ordinateur sans ordinateur central et où chaque ordinateur possède un 
-rôle similaire.
-–
-dans un environnement “client/serveur”</article>
+rôle similaire.</p>
+<p class="margedroite"> –dans un environnement “client/serveur”</p>
 
 
-<h3><u>2 - WLAN </u></h3> 
- <p>Le réseau suivant est le WLAN (Wireless Local Area Network). Comme son nom l'indique, c'est 
+
+
+<h3><p id="PARTIE12">2 - WLAN </h3></p>
+<p class="retourligne">Le réseau suivant est le WLAN (Wireless Local Area Network). Comme son nom l'indique, c'est 
 un réseau sans fil: il en existe plusieurs technologies et normes. Le partage et échanges 
 d'informations se font via la "voie des airs" (ondes radioélectriques) sans être connecté 
 physiquement par fil . Il permet de relier entre-eux les terminaux présents dans la zone de 
-couverture. 
-La norme la plus utilisée actuellement pour les réseaux sans fil est la norme IEE 802.11, mieux 
-connue sous le nom de WI-FI.
-Le rayonnement géographique des ondes est relativement limité étant donné la faible puissance 
+couverture. </p>
+<p class="retourligne">La norme la plus utilisée actuellement pour les réseaux sans fil est la norme IEE 802.11, mieux 
+connue sous le nom de WI-FI.</p>
+
+<p class="sdl">Le rayonnement géographique des ondes est relativement limité étant donné la faible puissance 
 d'émission des solutions matérielles actuelles. C'est pour cette raison que les réseaux sans fil sont 
 développés comme réseaux internes, propre à un batiment, comme réseau d'entreprise ou 
 domestique.</p>
 
-<h3>3 - VLAN</h3>
 
-Le troisième réseau est le VLAN, signifiant Virtual Local Area Network. C'est un réseau local 
-virtuel. 
- - On définit un VLAN comme un ensemble de "end stations ". Cette définition signifie que les  
+<h3><p id="PARTIE13">3 - VLAN</p></h3>
+
+<p class="tiret">Le troisième réseau est le VLAN, signifiant Virtual Local Area Network. C'est un réseau local 
+virtuel. </p>
+<p class="tiret"> - On définit un VLAN comme un ensemble de "end stations ". Cette définition signifie que les  
 VLANs  permettent  à  des  postes  de  travail  situés  dans  des  segments  physiques  différents  de 
-communiquer comme s’ils se trouvaient sur un même segment logique.
-C'est un LAN virtuel donc via Internet. Il permet aux machines qui ne sont pas connectées entre 
-elles de s'échanger les informations via internet. Il existe différents niveau de VLAN.
-Les VLANs de niveau 1 sont définis par un groupe de port d'un ou plusieurs équipements réseaux. 
+communiquer comme s’ils se trouvaient sur un même segment logique.</p>
+
+<p class="retourligne">C'est un LAN virtuel donc via Internet. Il permet aux machines qui ne sont pas connectées entre 
+elles de s'échanger les informations via internet. Il existe différents niveau de VLAN.</p>
+<p class="retourligne">Les VLANs de niveau 1 sont définis par un groupe de port d'un ou plusieurs équipements réseaux. 
 Il s'agit donc de définir des domaines d'appartenance aux différents VLANs par rapport au numéro 
-de ports sur un ou plusieurs commutateurs. 
-Les VLANs de niveau 2 sont définis par un groupe d'adresses MAC. Il s'agit donc de définir des 
+de ports sur un ou plusieurs commutateurs.</p>
+
+<p class="retourligne">Les VLANs de niveau 2 sont définis par un groupe d'adresses MAC. Il s'agit donc de définir des 
 domaines d'appartenance aux différents VLANs par rapport à l'adresse MAC de l'équipement actif 
 (ordinateur, imprimante) et comme les adresses MAC sont définies de façon unique au monde, il est
-possible de désigner un élement sans confusion.
-Les VLANs de niveau 3 sont définis depuis les en-têtes des paquets réseaux. Ce type de VLAN 
+possible de désigner un élement sans confusion.</p>
+<p class="sdl">Les VLANs de niveau 3 sont définis depuis les en-têtes des paquets réseaux. Ce type de VLAN 
 utilise seulement les informations contenues dans l'en-tête des paquets et n'effectue aucun travail de 
 routage. Le but est en effet de pouvoir identifier les individus d'un VLAN pour savoir où envoyer 
-les informations et en fait délimiter les différents domaines de broadcast.
+les informations et en fait délimiter les différents domaines de broadcast.</p>
 
 
-<h3>4 - WAN, PAN, MAN</h3>
 
-Le WAN (Wide Area Network) est un réseau fédérateur de taille supérieure à celle d'une métropole 
+<h3><p id="PARTIE14">4 - WAN, PAN, MAN</p></h3>
+
+<p class="retourligne">Le WAN (Wide Area Network) est un réseau fédérateur de taille supérieure à celle d'une métropole 
 (MAN).  C'est également un réseau étendu qui englobe des sites géographiquement éloignés les uns 
 des autres. Cette expression est utilisée pour désigner un réseau qui dépasse l'étendue d'un seul 
-établissement physique. L'étendue d'un réseau WAN peut être une ville, une région, un pays... etc. 
-Le PAN (Personal Area Network) est un réseau dit "personnel": c'est un réseau local sans fil créé 
+établissement physique. L'étendue d'un réseau WAN peut être une ville, une région, un pays... etc.</p> 
+<p class="retourligne">Le PAN (Personal Area Network) est un réseau dit "personnel": c'est un réseau local sans fil créé 
 par divers dispositifs sans fil qui s'étend sur la zone de travail au bureau ou au domicile. C'est un 
 type de réseau informatique restreint en termes d'équipements, généralement mis en oeuvre dans un 
 espace d'une dizaine de mètres. D'autre appelations pour ce type de réseau sont réseau domestique 
 ou réseau individuel. On utilise souvent l'USB, le Bluetooth, l'infrarouge, etc... pour mettre en place
 ce type de réseau. Quand on est sans fil, on est en WPAN (Wireless Personal Area Network); c'est 
 un réseau sans fil de faible portée de quelques dizaines de mètres, qui sert généralement à relier des 
-périphériques (imprimante, téléphone portable, appareils domestiques...)
-Le MAN (Metropolitan Area Network) est un réseau dit "métropolitain". Cette expression désigne 
+périphériques (imprimante, téléphone portable, appareils domestiques...)</p>
+<p class="retourligne">Le MAN (Metropolitan Area Network) est un réseau dit "métropolitain". Cette expression désigne 
 un réseau dont l'étendue peut varier entre celle d'un campus, d'une ville ou d'une région. 
 Généralement, ce type de réseau est utilisé dans les campus et utilise souvent des fibres optiques. 
 Une université peut avoir un MAN qui lie ensemble plusieurs réseaux locaux situés dans un espace 
 de 1 kilomètre carré. A partir des mans, on peut avoir plusieurs WANS les liant à d'autres 
-universités ou à Internet. 
-La différence principale entre ces trois réseaux est leur étendue caractéristique. 
+universités ou à Internet.</p> 
+<p class="sdl">La différence principale entre ces trois réseaux est leur étendue caractéristique.</p> 
 
-<h3>5 - Adresse MAC</h3>
 
-L'adresse MAC (Medium Access Control) identifie une carte réseau. Elle est représentée en 
+<h3><p id="PARTIE15">5 - Adresse MAC</p></h3>
+
+<p class="retourligne">L'adresse MAC (Medium Access Control) identifie une carte réseau. Elle est représentée en 
 notation décimale.
 C'est une adresse unique sur 6 octets. Chaque coupleur de réseau installé dans un ordinateur 
 possède une adresse unique au monde, et elle est gravée de façon permanente dans la carte. 
 Certaines technologies de réseau se servaient de la numérotation sur un octet de la carte, mais elles 
-ne sont plus utilisées. 
-Parce que chaque adresse est codée sur 6 octets, on a donc 6 * 8 = 48 bits. 
-Donc 248=281,474,976,710,656 adresses MAC possibles.
+ne sont plus utilisées.</p> 
+<p class="sdl">Parce que chaque adresse est codée sur 6 octets, on a donc 6 * 8 = 48 bits. 
+Donc 2^48=281,474,976,710,656 adresses MAC possibles.</p>
 
-<h3>6 - DNS</h3>
 
-Un DNS (Domain Name Server) est un serveur affectant à une machine un nom de domaine validé 
+
+<h3><p id="PARTIE16">6 - DNS</p></h3>
+
+<p class="retourligne">Un DNS (Domain Name Server) est un serveur affectant à une machine un nom de domaine validé 
 par le centre d'informations du segment Internet Local. Son rôle est très simple: les ordinateurs 
 connectés à un réseau IP , comme internet, possèdent une adresse IP. Pour faciliter l'accès à un système qui dispose de ces adresses, un mécanisme a été mis en place permettant d'associer à une 
 adresse IP un nom, plus simple à retenir, appellé "nom de domaine". Résoudre un nom de domaine 
-consiste à trouver l'adresse IP qui lui est associé.
-On peut dire que le Système DNS est un système de base de données réparties assurant la 
-correspondance d'un nom et d'une adresse IP.  
-Le système DNS joue un rôle critique dans l'infrastructure Internet en fournissant un mécanisme 
+consiste à trouver l'adresse IP qui lui est associé.</p>
+<p class="retourligne">On peut dire que le Système DNS est un système de base de données réparties assurant la 
+correspondance d'un nom et d'une adresse IP.</p>
+<p class="retourligne">Le système DNS joue un rôle critique dans l'infrastructure Internet en fournissant un mécanisme 
 robuste et distribué de résolution des noms d'hôtes Internet en adresses IP et des adresses IP en 
-noms. 
-Un site peut posséder plusieurs adresses IP distinctes, dans ce cas, elle seront toutes fournies en 
+noms. </p>
+<p class="sdl">Un site peut posséder plusieurs adresses IP distinctes, dans ce cas, elle seront toutes fournies en 
 même temps si on fait une demande d'adresse de la machine. Certains serveurs DNS possèdent une 
 fonction de tri d'adresse, en cas de plusieurs champs d'adresses fournis pour une même machine, le 
 serveur renverra en priorité celle qui est la plus proche du réseau demandeur.
+</p>
+<h3><p id ="PARTIE17">7 - Ethernet</p></h3>
 
-<h3>7 - Ethernet</h3>
-
-L'Ethernet est un réseau local conçu à l'origine par Xerox, DEC, et Intel, aujourd'hui normalisé par 
+<p class="retourligne">L'Ethernet est un réseau local conçu à l'origine par Xerox, DEC, et Intel, aujourd'hui normalisé par 
 ISO. Il fonctionne normalement à 10 Mbps par seconde sur un câble coaxial et une topologie en 
 bus. Il existe aujourd'hui des réseaux de type Ethernet adaptés à d'autres supports (paires torsadées, 
 fibre optique) et à d'autres topologies (étoile notamment).
 Les deux topologies principales sont l'Ethernet en Bus et l'Ethernet en étoile, qui est plus facilement
-administrable.
-La vitesse normalisé d'Ethernet est de 10 Mbit/s. Il existe aujourd'hui une version d'Ethernet qui à 
+administrable.</p>
+<p class="sdl">La vitesse normalisé d'Ethernet est de 10 Mbit/s. Il existe aujourd'hui une version d'Ethernet qui à 
 une vitesse de 100 Mbit/s, normalisée sous la norme IEEE 802-3u, également appelée FAST 
 ETHERNET. 
+</p>
+<img src="ethernet.png"></img>
+<p class ="retourligne">      </p>
 
+<h2><p id ="PARTIE20">II/ Services liés aux connexions internet</h1></p>
 
-& & & Image & & & 
+<h3><p id ="PARTIE21">1 - FAI / ISP</h3></p>
 
-
-<h2>II/ Services liés aux connexions internet</h1>
-
-<h3>1 - FAI / ISP</h3>
-
-Le FAI, aussi connu sous le nom de  Fournisseur d'Accès Internet, ou ISP (Internet Service 
+<p class="sdl">Le FAI, aussi connu sous le nom de  Fournisseur d'Accès Internet, ou ISP (Internet Service 
 Provider) en Anglais, est une entreprise ou une société qui propose des abonnements à l'Internet. 
 Les FAI proposent souvent en complément à l'accès internet des services complémentaires 
-(messagerie, informations, etc...)
-Les équipements d'un FAI forment un ou plusieurs réseaux autonomes. Les fournisseurs maîtrisent 
+(messagerie, informations, etc...)</p>
+<p class="sdl">Les équipements d'un FAI forment un ou plusieurs réseaux autonomes. Les fournisseurs maîtrisent 
 l'architecture et l'organisation de leurs liaisons. L'utilisateur ne reçoit pas une connection directe à 
 Internet, plutôt, il passe à travers le FAI, qui, lui, possède une connection à Internet différente: le 
 FAI fait partie d'un réseau transportant le trafic de ses abonnés, mais aussi les données d'autres 
@@ -147,89 +182,90 @@ fournisseur, entre le fournisseur et les opérateurs il existe des centaines de 
 opérateurs, qui partagent avec chacun toutes les routes qu'il connaissent. Ce mode de raccordement 
 est appelé le 
 transit
-.  
-La connexion de l'utilisateur à son fournisseur est faite par une boucle locale. Les câbles peuvent 
+.  </p>
+<p class="retourligne">La connexion de l'utilisateur à son fournisseur est faite par une boucle locale. Les câbles peuvent 
 être en cuivre, en câble coaxial, en fibre optique, par ondes radio ou par satellite.
-Pour les smartphones, l'accès à internet se fait à partir des réseaux de téléphonie mobile.
+Pour les smartphones, l'accès à internet se fait à partir des réseaux de téléphonie mobile.</p>
 
-<h3>2  - Proxy</h3>
+<h3><p id ="PARTIE22">2  - Proxy</h3></p>
 
-Un proxy est un équipement qui effectue une tâche à la place d'un autre équipement. 
-En Anglais, proxy se traduit par "délégué" ce qui explique le but du proxy.
-"Proxy" est le terme général utilisé en informatique pour désigner un service qui se subtitue ou 
-concours à une autre de façon automatique. 
-Vis-à-vis d'internet, le terme "proxy" signifie un serveur qui va ajouter automatiquement une 
+<p class="sdl">Un proxy est un équipement qui effectue une tâche à la place d'un autre équipement. 
+En Anglais, proxy se traduit par "délégué" ce qui explique le but du proxy.</p>
+<p class="sdl">"Proxy" est le terme général utilisé en informatique pour désigner un service qui se subtitue ou 
+concours à une autre de façon automatique. </p><p class="sdl">Vis-à-vis d'internet, le terme "proxy" signifie un serveur qui va ajouter automatiquement une 
 fonction à une service et va faire ceci de manière presque totalement transparente pour son 
-utilisateur. 
-Sur Internet, un des proxys les plus utilisés est le proxy-cache. Le proxy-cache mémorise les pages 
+utilisateur. </p>
+<p class="sdl">Sur Internet, un des proxys les plus utilisés est le proxy-cache. Le proxy-cache mémorise les pages 
 demandées par les utilisateurs sur ses disque locaux. Lorsqu'un autre utilisateur demande la même 
 page, celle-ci est servie depuis les disques locaux, évitant ainsi son transfert sur Internet. 
 L'utilisation des proxy-caches élimine beaucoup de transmissions inutiles et accélère la 
-consultation. 
-& & &Image
+consultation. </p>
 
-Il existe aussi le proxy filtre, qui est une combinaison du proxy cache et du pare-feu. Typiquement 
+
+<img src="proxycacheetproxyfiltre.png"></img>
+
+<p class="sdl">Il existe aussi le proxy filtre, qui est une combinaison du proxy cache et du pare-feu. Typiquement 
 un pare feu s'interpose entre l'ordinateur de l'utilisateur et l'Internet en général pour des raisons de 
 sécurité. Il examine les données transmises et reçues et les traites selon le règles définies par 
-l'utilisateur. 
-La différence principale entre le proxy filtre et le proxy cache, c'est que, vu qu'il fonctionne 
+l'utilisateur. </p>
+<p class="retourligne">La différence principale entre le proxy filtre et le proxy cache, c'est que, vu qu'il fonctionne 
 automatiquement par interception des données, il n'est pas nécessaire de le déclarer au navigateur. 
 A cause de cela, il est impossible de contourner le proxy filtre. Celui-ci crée une "frontière" entre 
 l'utilisateur et l'internet, et il n'y a plus de continuité directe: tous les transferts doivent passer à 
-travers le proxy filtre qui est obligatoire.
+travers le proxy filtre qui est obligatoire.</p>
 
-<h3>3 - VPN</h3>
+<h3><p id ="PARTIE23">3 - VPN</h3></p>
 
-VPN signifie "Virtual Private Network", ou Réseau Privé Virtuel en Français. C'est un terme très 
+<p class="sdl">VPN signifie "Virtual Private Network", ou Réseau Privé Virtuel en Français. C'est un terme très 
 souvent utilisé pour désigner un système de communication utilisant une infrastructure public 
 étendue (Internet, ATM, etc...) mais dédié va des circuits permanents. Pour simplifier, c'est un 
-système permettant de créer un lien direct entre des ordinateurs distants. 
+système permettant de créer un lien direct entre des ordinateurs distants. </p>
 On utilise ce terme 
 pour le travail à distance. 
-La connexion entre les ordinateurs est gérée de façon transparente par le logiciel de VPN. Les 
+<p class="sdl">La connexion entre les ordinateurs est gérée de façon transparente par le logiciel de VPN. Les 
 ordinateurs connectés au VPN sont ainsi considérés comme étant sur le sur le même réseau local 
 virtuel (VLAN), ce qui permet d'éviter d'éventuelles restrictions sur le réseau comme des pare-feux 
-ou des proxys.
-Un VPN permet d'accéder à des ordinateurs distants comme si l'on était connecté au réseau local. 
-On peut ainsi avoir un accès au réseau internet, comme pour un réseau d'entreprise par exemple.
+ou des proxys.</p>
+<p class="retourligne">Un VPN permet d'accéder à des ordinateurs distants comme si l'on était connecté au réseau local. 
+On peut ainsi avoir un accès au réseau internet, comme pour un réseau d'entreprise par exemple.</p>
 
-<h3>4 – WEP</h3>
+<h3><p id ="PARTIE24">4 – WEP</h3></p>
 
-WEP signifie "Wired Equivalent Privacy". C'est un protocole utilisé pour sécuriser les réseaux sans 
+<p class="sdl">WEP signifie "Wired Equivalent Privacy". C'est un protocole utilisé pour sécuriser les réseaux sans 
 fil de type Wi-Fi. En effet, contrairement aux réseaux filiaires, avec les réseaux sans fil, n'importe 
 qui dans la zone du réseau peut recevoir les ondes radioélectriques. Ainsi, le protocole WEP chiffre 
 les échanges pour protéger les données transitant sur le WLAN. Le but est de donner aux réseaux 
 sans fil une sécurité comparable à celle d'un réseau local filiaire. Toutefois, le WEP n'est pas 
 complétement sécurisé et a été remplacé par le WPA. (Wi-Fi Protected Access), qui est similaire en 
-fonction, mais beaucoup plus sécurisé. 
-Le WEP est un générateur de nombres pseudo-aléatoires initialisé par une clef secrète partagée (la 
-clé WEP). 
+fonction, mais beaucoup plus sécurisé.</p> 
+<p class="retourligne">Le WEP est un générateur de nombres pseudo-aléatoires initialisé par une clef secrète partagée (la 
+clé WEP). </p>
 
-<h3>5 - Wi-fi</h3>
+<h3><p id ="PARTIE25">5 - Wi-fi</h3></p>
 
-Wi-Fi signifie "Wireless Fidelity", ou ASFI en Français (accès sans fil à internet). C'est un jeu de 
-mots avec "hi-fi" (high fidelity)
-Le Wi-Fi est un protocole de communication permettant des échanges de données sans fils sur des 
+<p class="sdl">Wi-Fi signifie "Wireless Fidelity", ou ASFI en Français (accès sans fil à internet). C'est un jeu de 
+mots avec "hi-fi" (high fidelity)</p>
+<p class="sdl">Le Wi-Fi est un protocole de communication permettant des échanges de données sans fils sur des 
 courtes distances à l'aide d'ondes radio à hautes fréquences, de l'ordre de dizaines de mètres en 
 intérieur s'il n y a pas d'obstacles gênants entre l'émetteur et l'utilisateur, comme un mur en béton 
 
 par exemple. Les FAI peuvent établir un réseau wi-fi connecté à internet dans une zone à forte 
 concentration d'utilisateurs (gare, aéroport, hôtel, train, etc.). Ces zones ou points d'accès sont 
-appelés bornes; point d'accès, hot spots, etc...
-Il existe différentes normes Wi-Fi, chacune avec un nom différent. Toutes ne sont pas intéressantes;
-les deux normes les plus importantes sont:
-Wi-Fi 5, définit par la norme 802.11a, permet d'obtenir un haut débit dans un rayon d'environ 10 
-mètres, dans une bande de fréquence radio de 5 GHz. 
-Le Wi-Fi, définit par la norme 802.11b, était la norme Wifi la plus répandue installée au début des 
+appelés bornes; point d'accès, hot spots, etc...</p>
+<p class="sdl">Il existe différentes normes Wi-Fi, chacune avec un nom différent. Toutes ne sont pas intéressantes;
+les deux normes les plus importantes sont:</p>
+<p class="margedroite">* Wi-Fi 5, définit par la norme 802.11a, permet d'obtenir un haut débit dans un rayon d'environ 10 
+mètres, dans une bande de fréquence radio de 5 GHz. </p>
+<p class="retourlignemargedroite">* Le Wi-Fi, définit par la norme 802.11b, était la norme Wifi la plus répandue installée au début des 
 années 2000. Elle propose un débit théorique de 11 Mbit/s et un débit réel de 6 MBit/s  avec une 
 portée pouvant aller jusqu'à 300m en théorie dans un environnement dégagé donc sans aucun 
-obstacle. La plage de fréquences utilisée est la bande des 2,4 GHz.
+obstacle. La plage de fréquences utilisée est la bande des 2,4 GHz.</p>
 
-<h2>III/ Protocoles</h2>
+<p id = "PARTIE30"><h2>III/ Protocoles</h2></p>
 
-Avant de définir une liste de protocoles liés à l'Internet et aux réseaux nous devons d'abord définir 
-la définition du mot protocole.
-Un protocole est une séquence de règles à suivre dans un échange d'information: ce sont des règles 
+<p class="sdl">Avant de définir une liste de protocoles liés à l'Internet et aux réseaux nous devons d'abord définir 
+la définition du mot protocole.</p>
+<p class="sdl">Un protocole est une séquence de règles à suivre dans un échange d'information: ce sont des règles 
 et des conventions à suivre lors de l'échange, que ce soit pour acheminer les données jusqu'au 
 destinataire ou pour que le destinataire comprenne comment il doit utiliser les données qu'il a 
 reàues. C'est l'ensemble des règles de dialogue qui permettent à deux équipements de dialoguer. 
@@ -237,92 +273,99 @@ Il est nécessaire, pour que deux éléments dialoguent, que tous les maillons d
 procédures ou des conventions préalables parfaitement définies qui constitueront la grammaire du 
 dialogue. Ce sont ces conventions que l'on désigne de 
 protocole
-. Un protocole va définir la 
+.</p>
+
+<p class="retourligne">Un protocole va définir la 
 structure et l'ordre dans lesquels les informations sont transmises, la synchronisation entre 
 l'émetteur et le récepteur, etc...
 Un protocole est une méthode standard qui permet la communication entre des processus. Il en 
 existe plusieurs. Certains sont par exemple spécialisés dans l'échange de fichiers comme le FTP. 
 Sur Internet les protocoles utilisés font partie d'une suite de protocole. C'est à dire un ensemble de 
 protocoles reliés entre eux. Cette suite de protocoles s'appelle 
-TCP/IP.
+TCP/IP.</p>
 
-<h3>1 - TCP/IP</h3>
-TCP/IP signifie Transmission Control Protocol / Internet Protocol.
+<p id = "PARTIE31"><h3>1 - TCP/IP</h3></p>
+<p class="sdl">TCP/IP signifie Transmission Control Protocol / Internet Protocol.
 C'est un protocole de communication développé par Vinton Cerf et Bob Kahn pour faire 
 communiquer des machines hétérogènes sur un réseau de données en transmission par paquet. 
 C'est un des premiers protocoles à permettre d'interconnecter plusieurs réseaux locaux. C'est le plus 
-utilisé dans le monde des stations de travail sous Ethernet et Unix. 
+utilisé dans le monde des stations de travail sous Ethernet et Unix. </p>
 
-&&&image
 
-L'architecture TCP/IP comprend un ensemble de protocoles dont les principaux sont représentés ci-
+
+<img src="ip.png"></img>
+
+
+<p class="retourligne">L'architecture TCP/IP comprend un ensemble de protocoles dont les principaux sont représentés ci-
 dessus. L'ensembles des protocoles regroupés sous le sigle TCP/IP est aujourd'hui le plus répandu 
-dans les réseaux, locaux ou étendus. Ce sont les protocoles utilisés par Internet.
+dans les réseaux, locaux ou étendus. Ce sont les protocoles utilisés par Internet.</p>
 
-<h3>2 - TCP</h3>
+<p id = "PARTIE32"><h3>2 - TCP</h3></p>
 
-TCP signifie Transmission Control Protocol. C'est le protocole de transport de l'architecture 
+<p class="sdl">TCP signifie Transmission Control Protocol. C'est le protocole de transport de l'architecture 
 TCP/IP, notamment utilisés dans le monde Internet. Il opère avec le protocole IP et permet de 
-résoudre des problèmes de perte de niveau inférieur.
-TCP permet, au niveau des applications, de gérer les données en provenance (ou à destination) de la
-couche inférieur du modèle (c'est-à-dire le protocole IP). 
-TCP est un protocole orienté connexion, c'est à dire qu'il permet à deux machines qui 
-communiquent de contrôler l'état de la transmission. 
-Les caractéristiques principales du protocle TCP sont les suivantes: 
-* TCP permet de vérifier le flot de données afin d'éviter une saturation du réseau
-* TCP permet de formater les données en segments de longuer variable 
-* TCP permet de faire circuler simultanément des informations provenant de sources 
-(des programmes par exemple) distinctes sur une même ligne
-Grâce au TCP les applications peuvent communiquer de façon sûre avec un système d'accusés de 
+résoudre des problèmes de perte de niveau inférieur.</p>
+<p class="sdl">TCP permet, au niveau des applications, de gérer les données en provenance (ou à destination) de la
+couche inférieur du modèle (c'est-à-dire le protocole IP). </p>
+<p class="sdl">TCP est un protocole orienté connexion, c'est à dire qu'il permet à deux machines qui 
+communiquent de contrôler l'état de la transmission. </p>
+
+<p class="sdl">Les caractéristiques principales du protocle TCP sont les suivantes: </p>
+<p class="margedroite">* TCP permet de vérifier le flot de données afin d'éviter une saturation du réseau</p>
+<p class="margedroite">* TCP permet de formater les données en segments de longuer variable</p> 
+<p class="margedroite">* TCP permet de faire circuler simultanément des informations provenant de sources 
+(des programmes par exemple) distinctes sur une même ligne</p>
+<p class="sdl">Grâce au TCP les applications peuvent communiquer de façon sûre avec un système d'accusés de 
 réception. Lors d'une communication à travers le protocole TCP, les deux machines doivent établir 
 une connexion. La machine émettrice (celle qui demande la connexion) est appelée client, tandis 
 que la machine réceptrice est appelée serveur. On dit qu'on est alors dans un environnement "client-
 serveur". Les machines dans un tel environnement peuvent communiquer dans les deux sens. Le 
 protocole permet d''assurer le transfert des données de façon fiable. Il possède un système d'accusé 
 de réception permettant au client et au serveur de s'assurer de la bonne réception mutuelle des 
-données. 
-Lors de l'émission d'un segment, un numéro d'ordre est associé. A la réception d'un segment de 
+données. </p>
+<p class="retourligne">Lors de l'émission d'un segment, un numéro d'ordre est associé. A la réception d'un segment de 
 donnée, le récepteur va retourner un segment de donnée dont le drapeau ACK (acknowledge) = 1, 
 ce qui signale qu'il s'agit d'un accusé de réception, accompagne d'un numéro d'accusé de réception 
-égal au numéro d'ordre précédent. 
+égal au numéro d'ordre précédent. </p>
 
-<h3>3 - IP (IPv4)</h3>
+<p id = "PARTIE33"><h3>3 - IP (IPv4)</h3></p>
 
 
-IP signifie Internet Protocol. C'est un protocole d'interconnexion de deux sous-réseaux. Ce fut un 
+<p class="sdl">IP signifie Internet Protocol. C'est un protocole d'interconnexion de deux sous-réseaux. Ce fut un 
 des premiers protocoles permettant d'interconnecter des sous-réseaux ayant des caractéristiques 
-physiques différentes.
+physiques différentes.</p>
 
-&&&image
 
-L'IP permet la transmission de données à travers des réseaux hétérogènes en les découpant par 
-paquets.
-La fonction du Protocole Internet est d'acheminer les datagrammes à travers un ensemble de 
+<img src="ip2.png"></img>
+
+<p class="sdl">L'IP permet la transmission de données à travers des réseaux hétérogènes en les découpant par 
+paquets.</p>
+<p class="sdl">La fonction du Protocole Internet est d'acheminer les datagrammes à travers un ensemble de 
 réseaux interconnectés. Ceci est réalisé en transférant les datagrammes d'un module Internet à 
 l'autre jusqu'à atteindre la destination. Les modules Internet sont des programmes exécutés dans des 
 hôtes et des routeurs du réseau Internet. Les datagrammes sont transférés d'un module Internet à 
 l'autre sur un segment particulier de réseau selon l'interprétation d'une adresse Internet. De ce fait un
-des plus importants mécanismes du protocole Internet, c'est la gestion de cette adresse Internet. 
-10
-Lors de l'acheminement d'un datagramme d'un module Internet vers un autre, les datagrammes 
+des plus importants mécanismes du protocole Internet, c'est la gestion de cette adresse Internet. </p>
+
+<p class="retourligne">Lors de l'acheminement d'un datagramme d'un module Internet vers un autre, les datagrammes 
 peuvent avoir éventuellement à traverser une section de réseau qui admet une taille maximale de 
 paquet inférieure à celle du datagramme. Pour surmonter ce problème un mécanisme de 
-fragmentation est géré par le protocole Internet.
+fragmentation est géré par le protocole Internet.</p>
 
-<h3>4 - FTP</h3>
+<p id = "PARTIE34"><h3>4 - FTP</h3></p>
 
-FTP signifie File Transfer Protocol.
-C'est un 
+<p class="sdl">FTP signifie File Transfer Protocol.</p>
+<p class="sdl">C'est un 
 système de manipulation 
-et de transfert de fichiers à distance. 
-Il est composé de deux entités: le serveur et le client. Ce n'est pas un protocole autonome, il ne 
+et de transfert de fichiers à distance.</p> 
+<p class="sdl">Il est composé de deux entités: le serveur et le client. Ce n'est pas un protocole autonome, il ne 
 s'occupe que de la manipulation de fichier. Pour le transfert des blocs de données, il s'appuie sur la 
 couche de protocoles TCP/IP. Outre le transfert de fichiers, il autorise la suppression de fichiers, la 
-consultation de répertoires, etc...
-FTP garantit un certain niveau de sécurité: le client doit ouvrir une session sur le serveur pour 
+consultation de répertoires, etc...</p>
+<p class="sdl">FTP garantit un certain niveau de sécurité: le client doit ouvrir une session sur le serveur pour 
 s'identifier. Couramment utilisé sur Internet, le protocole FTP permet à n'importe quel utilisateur de 
-démarrer une session de transfert de fichiers et ce de manière anonyme.
-Le 
+démarrer une session de transfert de fichiers et ce de manière anonyme.</p>
+<p class="retourligne">Le 
 client
  envoie des requêtes auxquelles réagit le 
 serveur
@@ -332,105 +375,118 @@ arborescence de fichiers. Pour accéder à un serveur FTP, on utilise un logicie
 FileZilla...). Certains sont en ligne de commande, d'autre en interface graphique. Ceux-ci sont 
 souvent présents avec les versions de Windows et de Linux récentes. 
 Par convention: deux ports sont attribués pour les connexions FTP: le port 21 pour les commandes 
-et le port 20 pour les données.
-<h3>5 - HTTP</h3>
-HTTP signifie HyperText Transfer Protocol. Ce protocole définit un ensemble de commandes pour 
+et le port 20 pour les données.</p>
+<p id = "PARTIE35"><h3>5 - HTTP</h3></p>
+<p class="sdl">HTTP signifie HyperText Transfer Protocol. Ce protocole définit un ensemble de commandes pour 
 manipuler les documents HTML. C'est le protocole le plus utilisé sur Internet depuis 1990. L'HTTP 
 permet un transfert de fichiers, entre autres au format HTML, localisés grâce à une chaîne de 
-caractères nommée URL entre un navigateur et un serveur web.
-On peut donc dire que l'HTTP est un protocole de communication client-serveur développé pour le 
+caractères nommée URL entre un navigateur et un serveur web.</p>
+<p class="sdl">On peut donc dire que l'HTTP est un protocole de communication client-serveur développé pour le 
 World Wide Web. HTTPS est une variante du HTTP sécurisée par des protocoles SSL ou TLS.
 HTTP est un protocole qui peut fonctionner sur n'importe quelle connexion fiable; on utilise le 
 protocole TCP comme couche de transport. Un serveur HTTP utilise par défaut le port 80, 443 pour
 l'HTTPS. Les clients HTTP les plus répandus sont les navigateurs. Il y en a eu plusieurs versions: il 
-y a HTTP/0.9; HTTP/1.0; et HTTP/1.1.
+y a HTTP/0.9; HTTP/1.0; et HTTP/1.1.</p>
 
-&image
 
-<h3>6 – NTP</h3>
-NTP signifie “Network Time Protocol”. C'est un protocole qui permet de synchroniser, via un 
+<img src="http.png"></img>
+
+
+<p id = "PARTIE36"><h3>6 – NTP</h3></p>
+<p class="margedroite">NTP signifie “Network Time Protocol”. C'est un protocole qui permet de synchroniser, via un 
 réseau informatique, l'horloge locale d'ordinateurs sur un référence d'heure. La première version 
 date de 1985, et la plus répandue à ce jour, la version 3, est formalisée par la RFC 1305 et est donc 
-une “spécification finale”. Elle spécifie plusieurs aspects:
-•
-la description du protocole réseau
-•
-les modes de fonctionnement
-•
-les algorithmes à mettre en place dans les machines
-Les ordinateurs utilisent des horloges au quartz, qui dérivent au bout d'un certain temps. Avec le 
+une “spécification finale”. Elle spécifie plusieurs aspects:</p>
+<p class="margedroite">•
+la description du protocole réseau</p>
+<p class="margedroite">•
+les modes de fonctionnement</p>
+<p class="margedroite">•
+les algorithmes à mettre en place dans les machines</p>
+
+<p class="sdl">Les ordinateurs utilisent des horloges au quartz, qui dérivent au bout d'un certain temps. Avec le 
 développement des réseaux informatiques, la synchronisation des horloges des systèmes 
 informatiques communicants entre eux est devenue nécessaire. Certains domaines ont absolument 
-besoin d'avoir un temps de référence on peut citer notamment:
-•
-le contrôle aérien
-•
-les échanges commerciaux
-•
-les transactions journalisées des bases de données
-•
-les logs des systèmes informatiques
-•
-la diffusion de contenu multimédia en temps-réel, comme pour des vidéoconférences
-•
-etc...
-Sans une bonne synchronisation des horloges de tous les systèmes communicants entre eux, certains
+besoin d'avoir un temps de référence on peut citer notamment:</p>
+<p class="margedroite">•
+le contrôle aérien</p>
+<p class="margedroite">•
+les échanges commerciaux</p>
+<p class="margedroite">•
+les transactions journalisées des bases de données</p>
+<p class="margedroite">•
+les logs des systèmes informatiques</p>
+<p class="margedroite">•
+la diffusion de contenu multimédia en temps-réel, comme pour des vidéoconférences</p>
+<p class="margedroite">•
+etc...</p>
+<p class="sdl">Sans une bonne synchronisation des horloges de tous les systèmes communicants entre eux, certains
 services ne sont pas utilisables correctement. C'est ainsi que rapidement il a été nécessaire de définir
 des méthodes permettant de synchroniser les horloges sur une heure de référence. Dans le cas de 
-NTP, celui-ci utilise l'UTC (temps universel coordonné).
+NTP, celui-ci utilise l'UTC (temps universel coordonné).</p>
 
-<h3>7 – DHCP</h3>
+<p id = "PARTIE37"><h3>7 – DHCP</h3></p>
 
-DHCP signifie Dynamic Host Configuration Protocol. C'est un protocole réseau dont le rôle est 
+<p class="sdl">DHCP signifie Dynamic Host Configuration Protocol. C'est un protocole réseau dont le rôle est 
 d'assurer la configuration automatique des paramètres IP d'un ordinateur, notamment en lui 
 affectant de façon 
 automatique 
 une adresse IP et un masque de sous-réseau. Le DHCP peut aussi 
 configurer l'adresse de la passerelle par défaut, des serveurs de noms DNS et des serveurs de noms 
-NBNS (WINS).
-La conception initiale de l'IP supposait la préconfiguration de chaque ordinateur connecté au réseau 
+NBNS (WINS).</p>
+<p class="sdl">La conception initiale de l'IP supposait la préconfiguration de chaque ordinateur connecté au réseau 
 avec les paramètres TCP/IP adéquats: c'est l'adressage 
 statique
 , appelé aussi 
-IP Fixe. 
-Sur des 
+IP Fixe.</p> 
+
+<img src="serveurclient.png"></img>
+<p class="sdl">Sur des 
 réseaux de grandes dimensions ou étendues où des modifications interviennent souvent, l'adressage 
 statique engendre une lourde charge de maintenance et des risques d'erreurs puisqu'il faudrait 
 souvent changer de manière manuelle les adresses IP. De plus, souvent, les FAI ont en général plus 
 de clients que d'adresses IP de disponibles, mais les clients ne sont jamais tous connectés en même 
-temps.
-Le DHCP apporte une solution à ces trois inconvénients:
-•
-seuls les ordinateurs en service utilisent une adresse de l'espace adressage
-•
+temps.</p>
+<p class="margedroite">Le DHCP apporte une solution à ces trois inconvénients:</p>
+<p class="margedroite">•
+seuls les ordinateurs en service utilisent une adresse de l'espace adressage</p>
+<p class="margedroite">•
 toute modification des paramètres est répercutée sur les stations lors du
-redémarrage
-•
-la modification de ces paramètres est centralisée sur les serveurs DHCP.
-Lorsque l'on connecte une machine à un réseau Ethernet TCP/IP, cette machine, pour fonctionner 
-correctement, doit disposer: 
-•
+redémarrage</p>
+<p class="margedroite">•
+la modification de ces paramètres est centralisée sur les serveurs DHCP.</p>
+<p class="sdl">Lorsque l'on connecte une machine à un réseau Ethernet TCP/IP, cette machine, pour fonctionner 
+correctement, doit disposer:</p> 
+<p class="margedroite">•
 d'une adresse IP unique dans le réseau et appartenant au même réseau logique que toutes
-les autres machines du réseau en question
-•
-d'un masque de sous-réseau, le même pour tous les hôtes du réseau
-•
-d'une adresse de DNS, pour pouvoir résoudre les noms des hôtes
-•
+les autres machines du réseau en question</p>
+<p class="margedroite">•
+d'un masque de sous-réseau, le même pour tous les hôtes du réseau</p>
+<p class="margedroite">•
+d'une adresse de DNS, pour pouvoir résoudre les noms des hôtes</p>
+<p class="margedroite">•
 de l'adresse de la passerelle qui permet d'accéder sur un réseau complexe à l'un des
-multiples sous-réseaux
-Il faut dans un premier temps un serveur DHCP qui distribue des adresses IP.  Cette machine va 
+multiples sous-réseaux</p>
+<p class="sdl">Il faut dans un premier temps un serveur DHCP qui distribue des adresses IP.  Cette machine va 
 servir de base pour toutes les requêtes DHCP. Dans un réseau, on ne peut donc n'avoir aucune 
-machine avec addresse IP fixe.
-Quand une machine est démarrée, elle n'a aucune information sur sa configuration réseau et surtout 
+machine avec addresse IP fixe.</p>
+<p class="sdl">Quand une machine est démarrée, elle n'a aucune information sur sa configuration réseau et surtout 
 l'utilisateur ne doit rien faire de particulier pour trouver un adresse IP. Pour faire cela, la technique 
 utilisée est le broadcast. Pour dialoguer avec un serveur DHCP la machine va simplement émettre 
-un paquet spécial de broadcast sur le réseau locale. 
-Lorsque le DHCP reçoit le paquet, il va renvoyer un autre paquet de broadcast (le client n'a pas 
+un paquet spécial de broadcast sur le réseau local.</p> 
+<p class="sdl">Lorsque le DHCP reçoit le paquet, il va renvoyer un autre paquet de broadcast (le client n'a pas 
 forcément son adresse IP et donc il n'est pas joignable directement) contenant toutes les 
-informations requises pour le client.
-On pourrait croire qu'un seul paquet peut suffir à la bonne marche du protocole, mais il existe 
-plusieurs types de paquets DHCP susceptibles d'être émis par le client ou par le serveur.
-</MARQUEE>
+informations requises pour le client.</p>
+<p class="sdl">On pourrait croire qu'un seul paquet peut suffir à la bonne marche du protocole, mais il existe 
+plusieurs types de paquets DHCP susceptibles d'être émis par le client ou par le serveur.</p>
+</p>
+
+
+<p class="SOURCES">SOURCES UTILISEES:
+<p class="retourligne"><a href = http://lexique.reseaux.free.fr/Fichiers/Lexique%20de%20Termes%20et%20Acronymes%20Reseaux%20&%20Telecom.pdf>Lexique de Termes et Acronymes Reseaux Telecom</a>
+<p class="sdl"><a href = http://en.wikipedia.org>Wikipedia</a></p></p>
+</a>
+
 </body>
+
 	</html>
