@@ -1,17 +1,27 @@
+#hautdepage{
+	background: url(apple.jpg);
+	height: 300px;
+}
+
 .tiret{
 	margin-bottom:20px
 }
 
 .sdl{
-	margin-bottom:50px;
+	margin-bottom:10px;
 }
 
 .margedroite{
-	margin-right:30px;
+	margin-left:30px;
 }
 
 .retourligne{
 	margin-bottom:1px;
+}
+
+.retourlignemargedroite{
+	margin-bottom:1px;
+	margin-left:30px;
 }
 
 #PARTIE10{
@@ -49,6 +59,96 @@
 
 
 #PARTIE17{
+
+}
+
+#PARTIE20{
+
+
+}
+
+#PARTIE21{
+
+
+}
+#PARTIE22{
+
+
+}
+#PARTIE23{
+
+
+}
+#PARTIE24{
+
+
+}
+#PARTIE25{
+
+
+}
+
+
+
+
+#PARTIE30{
+
+}
+
+#PARTIE31{
+
+}
+
+
+#PARTIE32{
+
+}
+
+
+#PARTIE33{
+
+}
+
+
+#PARTIE34{
+
+}
+
+
+#PARTIE35{
+
+}
+
+
+#PARTIE36{
+
+}
+
+
+#PARTIE37{
+
+}
+
+#LARGEUR{
+	width: 600px;
+	text-align: left;
+}
+
+body
+{
+    margin: 100px 50 ;
+    padding: 10px ;
+    text-align: justify ;  
+    font: 0.8em "Trebuchet MS" ;
+    background: #FFFFFF;
+    width: 880px;
+    border: 1px solid #A7D7F6;background-color:#f9f9f9;
+}
+
+
+
+#SOURCES{
+	font: "Arial", 8pt;
 
 }
 
