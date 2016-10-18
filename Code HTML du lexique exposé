@@ -2,155 +2,131 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Lexique et acronymes sur les réseaux</title>
+	<title>Mon titre</title>
 	<link rel="stylesheet" type="text/css" href="css.css">
 </head>
 <body>
-<h1><center>ACRONYMES ET LEXIQUE LIES AUX RESEAUX</center></h1>
 
+<h1>ACRONYMES ET LEXIQUE LIES AUX RESEAUX</h1>
 
-<center><h2> Sommaire </h2></center>
-<p class = "sommairestyle"><h3><a href = #PARTIE10>I/ Réseaux locaux (Area Networks)</a></h3>
-<h5><a href = #PARTIE11><p class ="sommairetabulation">1 - LAN</p></a></h5>
-<h5><a href = #PARTIE12><p class ="sommairetabulation">2 - WLAN</p></a></h5>
-<h5><a href = #PARTIE13><p class ="sommairetabulation">3 - VLAN</p></a></h5>
-<h5><a href = #PARTIE14><p class ="sommairetabulation">4 - WAN, PAN, MAN</p></a></h5>
-<h5><a href = #PARTIE15><p class ="sommairetabulation">5 - ADRESSES MAC</p></a></h5>
-<h5><a href = #PARTIE16><p class ="sommairetabulation">6 - DNS</p></a></h5>
-<h5><a href = #PARTIE17><p class ="sommairetabulation">7 - ETHERNET</p></a></h5></p>
+<h2>I/ Réseaux locaux (Area Networks)</h2>
+<h3><u>1 - LAN</u></h3>
 
-<p class = "sommairestyle"></p>
-
-<h2><p id ="PARTIE10">I/ Réseaux locaux (Area Networks)</p></h2>
-<h3><u><p id ="PARTIE11">1 - LAN</p></u></h3>
-
-<p class="retourligne">Le premier réseau est le LAN, qui signifie Local Area Network. C'est un réseau d'entreprise de 
+<article>Le premier réseau est le LAN, qui signifie Local Area Network. C'est un réseau d'entreprise de 
 faible superficie, c'est-à-dire un réseau où les équipements informatiques qui le compose sont 
 géographiquement regroupés dans un même site relativement petit. (immeuble, étage). C'est un 
-réseau de données à haute vitesse et avec un taux d'erreur faible. </p>
-<p class="tiret">On définit aussi le LAN par le domaine de diffusion, c'est-à-dire l'ensemble des stations qui 
+réseau de données à haute vitesse et avec un taux d'erreur faible. 
+On définit aussi le LAN par le domaine de diffusion, c'est-à-dire l'ensemble des stations qui 
 reçoivent une même trame de diffusion. Au niveau de l'adressage IP, un réseau local correspond 
 généralement à un sous-réseau IP. On interconnecte les réseaux locaux au moyen de routeurs.
-On peut distinguer deux modes de fonctionnement du LAN: </p>
-<p class="tiret">–dans un environnement "PEER TO PEER" dans lequel la communication s'établit 
+On peut distinguer deux modes de fonctionnement du LAN: 
+–
+dans un environnement "PEER TO PEER" dans lequel la communication s'établit 
 d'ordinateur à ordinateur sans ordinateur central et où chaque ordinateur possède un 
-rôle similaire.</p>
-<p class="sdl"> –dans un environnement “client/serveur”</p>
+rôle similaire.
+–
+dans un environnement “client/serveur”</article>
 
 
-
-
-<h3><u><p id="PARTIE12">2 - WLAN </u></h3> 
-<p class="retourligne">Le réseau suivant est le WLAN (Wireless Local Area Network). Comme son nom l'indique, c'est 
+<h3><u>2 - WLAN </u></h3> 
+ <p>Le réseau suivant est le WLAN (Wireless Local Area Network). Comme son nom l'indique, c'est 
 un réseau sans fil: il en existe plusieurs technologies et normes. Le partage et échanges 
 d'informations se font via la "voie des airs" (ondes radioélectriques) sans être connecté 
 physiquement par fil . Il permet de relier entre-eux les terminaux présents dans la zone de 
-couverture. </p>
-<p class="retourligne">La norme la plus utilisée actuellement pour les réseaux sans fil est la norme IEE 802.11, mieux 
-connue sous le nom de WI-FI.</p>
-
-<p class="sdl">Le rayonnement géographique des ondes est relativement limité étant donné la faible puissance 
+couverture. 
+La norme la plus utilisée actuellement pour les réseaux sans fil est la norme IEE 802.11, mieux 
+connue sous le nom de WI-FI.
+Le rayonnement géographique des ondes est relativement limité étant donné la faible puissance 
 d'émission des solutions matérielles actuelles. C'est pour cette raison que les réseaux sans fil sont 
 développés comme réseaux internes, propre à un batiment, comme réseau d'entreprise ou 
 domestique.</p>
 
+<h3>3 - VLAN</h3>
 
-<h3><u><p id="PARTIE13">3 - VLAN</p></u></h3>
-
-<p class="tiret">Le troisième réseau est le VLAN, signifiant Virtual Local Area Network. C'est un réseau local 
-virtuel. </p>
-<p class="tiret"> - On définit un VLAN comme un ensemble de "end stations ". Cette définition signifie que les  
+Le troisième réseau est le VLAN, signifiant Virtual Local Area Network. C'est un réseau local 
+virtuel. 
+ - On définit un VLAN comme un ensemble de "end stations ". Cette définition signifie que les  
 VLANs  permettent  à  des  postes  de  travail  situés  dans  des  segments  physiques  différents  de 
-communiquer comme s’ils se trouvaient sur un même segment logique.</p>
-
-<p class="retourligne">C'est un LAN virtuel donc via Internet. Il permet aux machines qui ne sont pas connectées entre 
-elles de s'échanger les informations via internet. Il existe différents niveau de VLAN.</p>
-<p class="retourligne">Les VLANs de niveau 1 sont définis par un groupe de port d'un ou plusieurs équipements réseaux. 
+communiquer comme s’ils se trouvaient sur un même segment logique.
+C'est un LAN virtuel donc via Internet. Il permet aux machines qui ne sont pas connectées entre 
+elles de s'échanger les informations via internet. Il existe différents niveau de VLAN.
+Les VLANs de niveau 1 sont définis par un groupe de port d'un ou plusieurs équipements réseaux. 
 Il s'agit donc de définir des domaines d'appartenance aux différents VLANs par rapport au numéro 
-de ports sur un ou plusieurs commutateurs.</p>
-
-<p class="retourligne">Les VLANs de niveau 2 sont définis par un groupe d'adresses MAC. Il s'agit donc de définir des 
+de ports sur un ou plusieurs commutateurs. 
+Les VLANs de niveau 2 sont définis par un groupe d'adresses MAC. Il s'agit donc de définir des 
 domaines d'appartenance aux différents VLANs par rapport à l'adresse MAC de l'équipement actif 
 (ordinateur, imprimante) et comme les adresses MAC sont définies de façon unique au monde, il est
-possible de désigner un élement sans confusion.</p>
-<p class="sdl">Les VLANs de niveau 3 sont définis depuis les en-têtes des paquets réseaux. Ce type de VLAN 
+possible de désigner un élement sans confusion.
+Les VLANs de niveau 3 sont définis depuis les en-têtes des paquets réseaux. Ce type de VLAN 
 utilise seulement les informations contenues dans l'en-tête des paquets et n'effectue aucun travail de 
 routage. Le but est en effet de pouvoir identifier les individus d'un VLAN pour savoir où envoyer 
-les informations et en fait délimiter les différents domaines de broadcast.</p>
+les informations et en fait délimiter les différents domaines de broadcast.
 
 
+<h3>4 - WAN, PAN, MAN</h3>
 
-<h3><u><p id="PARTIE14">4 - WAN, PAN, MAN</p></u></h3>
-
-<p class="retourligne">Le WAN (Wide Area Network) est un réseau fédérateur de taille supérieure à celle d'une métropole 
+Le WAN (Wide Area Network) est un réseau fédérateur de taille supérieure à celle d'une métropole 
 (MAN).  C'est également un réseau étendu qui englobe des sites géographiquement éloignés les uns 
 des autres. Cette expression est utilisée pour désigner un réseau qui dépasse l'étendue d'un seul 
-établissement physique. L'étendue d'un réseau WAN peut être une ville, une région, un pays... etc.</p> 
-<p class="retourligne">Le PAN (Personal Area Network) est un réseau dit "personnel": c'est un réseau local sans fil créé 
+établissement physique. L'étendue d'un réseau WAN peut être une ville, une région, un pays... etc. 
+Le PAN (Personal Area Network) est un réseau dit "personnel": c'est un réseau local sans fil créé 
 par divers dispositifs sans fil qui s'étend sur la zone de travail au bureau ou au domicile. C'est un 
 type de réseau informatique restreint en termes d'équipements, généralement mis en oeuvre dans un 
 espace d'une dizaine de mètres. D'autre appelations pour ce type de réseau sont réseau domestique 
 ou réseau individuel. On utilise souvent l'USB, le Bluetooth, l'infrarouge, etc... pour mettre en place
 ce type de réseau. Quand on est sans fil, on est en WPAN (Wireless Personal Area Network); c'est 
 un réseau sans fil de faible portée de quelques dizaines de mètres, qui sert généralement à relier des 
-périphériques (imprimante, téléphone portable, appareils domestiques...)</p>
-<p class="retourligne">Le MAN (Metropolitan Area Network) est un réseau dit "métropolitain". Cette expression désigne 
+périphériques (imprimante, téléphone portable, appareils domestiques...)
+Le MAN (Metropolitan Area Network) est un réseau dit "métropolitain". Cette expression désigne 
 un réseau dont l'étendue peut varier entre celle d'un campus, d'une ville ou d'une région. 
 Généralement, ce type de réseau est utilisé dans les campus et utilise souvent des fibres optiques. 
 Une université peut avoir un MAN qui lie ensemble plusieurs réseaux locaux situés dans un espace 
 de 1 kilomètre carré. A partir des mans, on peut avoir plusieurs WANS les liant à d'autres 
-universités ou à Internet.</p> 
-<p class="sdl">La différence principale entre ces trois réseaux est leur étendue caractéristique.</p> 
+universités ou à Internet. 
+La différence principale entre ces trois réseaux est leur étendue caractéristique. 
 
+<h3>5 - Adresse MAC</h3>
 
-<h3><u><p id="PARTIE15">5 - Adresse MAC</p></u></h3>
-
-<p class="retourligne">L'adresse MAC (Medium Access Control) identifie une carte réseau. Elle est représentée en 
+L'adresse MAC (Medium Access Control) identifie une carte réseau. Elle est représentée en 
 notation décimale.
 C'est une adresse unique sur 6 octets. Chaque coupleur de réseau installé dans un ordinateur 
 possède une adresse unique au monde, et elle est gravée de façon permanente dans la carte. 
 Certaines technologies de réseau se servaient de la numérotation sur un octet de la carte, mais elles 
-ne sont plus utilisées.</p> 
-<p class="sdl">Parce que chaque adresse est codée sur 6 octets, on a donc 6 * 8 = 48 bits. 
-Donc 2^48=281,474,976,710,656 adresses MAC possibles.</p>
+ne sont plus utilisées. 
+Parce que chaque adresse est codée sur 6 octets, on a donc 6 * 8 = 48 bits. 
+Donc 248=281,474,976,710,656 adresses MAC possibles.
 
+<h3>6 - DNS</h3>
 
-
-<h3><u><p id="PARTIE16">6 - DNS</p></u></h3>
-
-<p class="retourligne">Un DNS (Domain Name Server) est un serveur affectant à une machine un nom de domaine validé 
+Un DNS (Domain Name Server) est un serveur affectant à une machine un nom de domaine validé 
 par le centre d'informations du segment Internet Local. Son rôle est très simple: les ordinateurs 
 connectés à un réseau IP , comme internet, possèdent une adresse IP. Pour faciliter l'accès à un système qui dispose de ces adresses, un mécanisme a été mis en place permettant d'associer à une 
 adresse IP un nom, plus simple à retenir, appellé "nom de domaine". Résoudre un nom de domaine 
-consiste à trouver l'adresse IP qui lui est associé.</p>
-<p class="retourligne">On peut dire que le Système DNS est un système de base de données réparties assurant la 
-correspondance d'un nom et d'une adresse IP.</p>
-<p class="retourligne">Le système DNS joue un rôle critique dans l'infrastructure Internet en fournissant un mécanisme 
+consiste à trouver l'adresse IP qui lui est associé.
+On peut dire que le Système DNS est un système de base de données réparties assurant la 
+correspondance d'un nom et d'une adresse IP.  
+Le système DNS joue un rôle critique dans l'infrastructure Internet en fournissant un mécanisme 
 robuste et distribué de résolution des noms d'hôtes Internet en adresses IP et des adresses IP en 
-noms. </p>
-<p class="sdl">Un site peut posséder plusieurs adresses IP distinctes, dans ce cas, elle seront toutes fournies en 
+noms. 
+Un site peut posséder plusieurs adresses IP distinctes, dans ce cas, elle seront toutes fournies en 
 même temps si on fait une demande d'adresse de la machine. Certains serveurs DNS possèdent une 
 fonction de tri d'adresse, en cas de plusieurs champs d'adresses fournis pour une même machine, le 
 serveur renverra en priorité celle qui est la plus proche du réseau demandeur.
-</p>
-<h3><u><p id ="PARTIE17">7 - Ethernet</p></u></h3>
 
-<p class="retourligne">L'Ethernet est un réseau local conçu à l'origine par Xerox, DEC, et Intel, aujourd'hui normalisé par 
+<h3>7 - Ethernet</h3>
+
+L'Ethernet est un réseau local conçu à l'origine par Xerox, DEC, et Intel, aujourd'hui normalisé par 
 ISO. Il fonctionne normalement à 10 Mbps par seconde sur un câble coaxial et une topologie en 
 bus. Il existe aujourd'hui des réseaux de type Ethernet adaptés à d'autres supports (paires torsadées, 
 fibre optique) et à d'autres topologies (étoile notamment).
 Les deux topologies principales sont l'Ethernet en Bus et l'Ethernet en étoile, qui est plus facilement
-administrable.</p>
-<p class="sdl">La vitesse normalisé d'Ethernet est de 10 Mbit/s. Il existe aujourd'hui une version d'Ethernet qui à 
+administrable.
+La vitesse normalisé d'Ethernet est de 10 Mbit/s. Il existe aujourd'hui une version d'Ethernet qui à 
 une vitesse de 100 Mbit/s, normalisée sous la norme IEEE 802-3u, également appelée FAST 
 ETHERNET. 
-</p>
-<img src="ethernet.png"></img>
-<p class ="retourligne">      </p>
-<p class ="sdl">SOURCES UTILISEES:
-<p class="retourligne"><a href = http://lexique.reseaux.free.fr/Fichiers/Lexique%20de%20Termes%20et%20Acronymes%20Reseaux%20&%20Telecom.pdf>Lexique de Termes et Acronymes Reseaux Telecom</a>
-<p class="sdl"><a href = http://en.wikipedia.org>Wikipedia</a></p>
 
+
+& & & Image & & & 
 
 
 <h2>II/ Services liés aux connexions internet</h1>
@@ -455,6 +431,6 @@ forcément son adresse IP et donc il n'est pas joignable directement) contenant 
 informations requises pour le client.
 On pourrait croire qu'un seul paquet peut suffir à la bonne marche du protocole, mais il existe 
 plusieurs types de paquets DHCP susceptibles d'être émis par le client ou par le serveur.
+</MARQUEE>
 </body>
-
 	</html>
